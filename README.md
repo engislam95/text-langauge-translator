@@ -13,16 +13,15 @@ npm install --save text-language-translator
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'text-language-translator'
-import 'text-language-translator/dist/index.css'
+import  LanguageTranslator  from 'text-language-translator'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <LanguageTranslator  />
 }
+
+export default App
 ```
 
 ## License

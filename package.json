@@ -2,7 +2,6 @@
   "name": "text-language-translator",
   "version": "1.0.0",
   "description": "fully supported text translator with multi languages without any ApiKey , also providing language select with language code",
-  "author": "engislam95",
   "license": "MIT",
   "repository": "https://github.com/engislam95/text-langauge-translator",
   "main": "dist/index.js",
@@ -11,6 +10,19 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "translation",
+    "language",
+    "react-component",
+    "text language translation",
+    "langauge select"
+  ],
+  "author": {
+    "name": "Islam Baidaq",
+    "email": "islam.baidaq@gmail.com"
+  },
+  "homepage": "https://github.com/engislam95/text-langauge-translator",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -49,5 +61,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "react-bootstrap": "^2.5.0"
+  }
 }
